@@ -9,8 +9,19 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 public class NWtourist extends FragmentActivity implements OnMapReadyCallback {
+
+    private ArrayList<Washroom> washroomList;
+    private ArrayList<Parks> parkList;
+    private ArrayList<BusStop> busStopList;
+    private ArrayList<DrinkingFountain> drinkingFountainList;
+
 
     private GoogleMap mMap;
 
