@@ -14,6 +14,7 @@ class Park{
     var parkName: String!
     var category: String!
     var neighbourhood: String!
+    var rating: Int!
     
     
     func getStreetName() -> String{
@@ -31,4 +32,8 @@ class Park{
     func getNeighbourhood() -> String{
         return neighbourhood;
     }
+    func getRating() -> Int {
+        return rating;
+    }
+
 }

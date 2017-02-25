@@ -10,4 +10,12 @@ import Foundation
 
 class BusStops{
     var busStopNumber: String!
+    var rating: Int!
+    
+    func getBusStopNumber() -> String{
+        return busStopNumber;
+    }
+    func getRating() -> Int {
+        return rating;
+    }
 }

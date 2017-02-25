@@ -15,6 +15,7 @@ class Washroom {
     var hours: String!
     var neighbourhood: String!
     var latLong:LatLong = LatLong();
+    var rating: Int!
     
     func getName() -> String{
         return name;
@@ -30,5 +31,8 @@ class Washroom {
     }
     func getLatLong() -> LatLong{
         return latLong;
+    }
+    func getRating() -> Int {
+        return rating;
     }
 }
