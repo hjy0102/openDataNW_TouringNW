@@ -1,5 +1,3 @@
-BUSSTOPNUM,ONSTREET,ATSTREET,DIRECTION,POSITION,STATUS,ACCESSIBLE,CITY_NAME,X,Y
-
 public class BusStop{
   int stopNumber;
   String onStreet, atStreet, direction, position, status, accessible, cityName;
@@ -18,39 +16,39 @@ public class BusStop{
       this.latlng = latlng;
   }
 
-  public String getCategory() {
-        return category;
+  public int getStopNumber() {
+        return stopNumber;
   }
 
-  public String getCategory() {
-        return category;
+  public String getOnStreet() {
+        return onStreet;
   }
 
-  public String getCategory() {
-        return category;
+  public String getAtStreet() {
+        return atStreet;
   }
 
-  public String getCategory() {
-        return category;
+  public String getDirection() {
+        return direction;
   }
 
-  public String getCategory() {
-        return category;
+  public String getPosition() {
+        return position;
   }
 
-  public String getCategory() {
-        return category;
+  public String getStatus() {
+        return status;
   }
 
-  public String getCategory() {
-        return category;
+  public String getAccessible() {
+        return accessible;
   }
 
-  public String getCategory() {
-        return category;
+  public String getCityName() {
+        return cityName;
   }
 
-  public String getCategory() {
-        return category;
+  public LatLng getLatlng() {
+        return latlng;
   }
 }
