@@ -15,7 +15,13 @@
 		51D84A2E1E620D5F00054043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D84A2C1E620D5F00054043 /* LaunchScreen.storyboard */; };
 		51D84A391E620D5F00054043 /* TouringNWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A381E620D5F00054043 /* TouringNWTests.swift */; };
 		51D84A441E620D5F00054043 /* TouringNWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A431E620D5F00054043 /* TouringNWUITests.swift */; };
-		51D84A5B1E6225CC00054043 /* JSON_Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A591E6225CC00054043 /* JSON_Parser.cpp */; };
+		51D84A5E1E6232F100054043 /* JSON_parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A5D1E6232F100054043 /* JSON_parser.swift */; };
+		51D84A601E6234F100054043 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A5F1E6234F100054043 /* SwiftyJSON.swift */; };
+		51D84A621E62362400054043 /* Washrooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A611E62362400054043 /* Washrooms.swift */; };
+		51D84A641E62378300054043 /* LatLong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A631E62378300054043 /* LatLong.swift */; };
+		51D84A691E623DE000054043 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A681E623DE000054043 /* Park.swift */; };
+		51D84A6B1E623E8D00054043 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A6A1E623E8D00054043 /* BusStop.swift */; };
+		51D84A6D1E6240A100054043 /* drinkingFountains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A6C1E6240A100054043 /* drinkingFountains.swift */; };
 		849A4A0175F0E23F5ACBC78B /* Pods_TouringNWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15792F64F61EF1C4C84695AD /* Pods_TouringNWTests.framework */; };
 		F5195E34083FF4B24DA6AD14 /* Pods_TouringNW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938A70DE4B53E190D9BA9084 /* Pods_TouringNW.framework */; };
 /* End PBXBuildFile section */
@@ -53,8 +59,13 @@
 		51D84A431E620D5F00054043 /* TouringNWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouringNWUITests.swift; sourceTree = "<group>"; };
 		51D84A451E620D5F00054043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51D84A581E6225CC00054043 /* TouringNW-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouringNW-Bridging-Header.h"; sourceTree = "<group>"; };
-		51D84A591E6225CC00054043 /* JSON_Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSON_Parser.cpp; path = "../../C++_NW_API/JSON_Parser.cpp"; sourceTree = "<group>"; };
-		51D84A5A1E6225CC00054043 /* JSON_Parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JSON_Parser.hpp; path = "../../C++_NW_API/JSON_Parser.hpp"; sourceTree = "<group>"; };
+		51D84A5D1E6232F100054043 /* JSON_parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON_parser.swift; sourceTree = "<group>"; };
+		51D84A5F1E6234F100054043 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		51D84A611E62362400054043 /* Washrooms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Washrooms.swift; sourceTree = "<group>"; };
+		51D84A631E62378300054043 /* LatLong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatLong.swift; sourceTree = "<group>"; };
+		51D84A681E623DE000054043 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		51D84A6A1E623E8D00054043 /* BusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
+		51D84A6C1E6240A100054043 /* drinkingFountains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drinkingFountains.swift; sourceTree = "<group>"; };
 		56FE7F86C76B72D753957403 /* Pods-TouringNWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNWUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNWUITests/Pods-TouringNWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D8A85A468434A2BAA8105BE /* Pods-TouringNW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNW.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNW/Pods-TouringNW.release.xcconfig"; sourceTree = "<group>"; };
 		7A79BDDDF473AFA30FB5C722 /* Pods-TouringNWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNWUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNWUITests/Pods-TouringNWUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,9 +129,9 @@
 		51D84A221E620D5F00054043 /* TouringNW */ = {
 			isa = PBXGroup;
 			children = (
+				51D84A671E623D6B00054043 /* Classes */,
+				51D84A5F1E6234F100054043 /* SwiftyJSON.swift */,
 				51D84A231E620D5F00054043 /* AppDelegate.swift */,
-				51D84A591E6225CC00054043 /* JSON_Parser.cpp */,
-				51D84A5A1E6225CC00054043 /* JSON_Parser.hpp */,
 				51D84A251E620D5F00054043 /* ViewController.swift */,
 				51D84A271E620D5F00054043 /* Main.storyboard */,
 				51D84A2A1E620D5F00054043 /* Assets.xcassets */,
@@ -147,6 +158,19 @@
 				51D84A451E620D5F00054043 /* Info.plist */,
 			);
 			path = TouringNWUITests;
+			sourceTree = "<group>";
+		};
+		51D84A671E623D6B00054043 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51D84A611E62362400054043 /* Washrooms.swift */,
+				51D84A631E62378300054043 /* LatLong.swift */,
+				51D84A5D1E6232F100054043 /* JSON_parser.swift */,
+				51D84A681E623DE000054043 /* Park.swift */,
+				51D84A6A1E623E8D00054043 /* BusStop.swift */,
+				51D84A6C1E6240A100054043 /* drinkingFountains.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		83BE3847D95F182189D5BEC9 /* Frameworks */ = {
@@ -454,9 +478,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D84A6B1E623E8D00054043 /* BusStop.swift in Sources */,
+				51D84A5E1E6232F100054043 /* JSON_parser.swift in Sources */,
+				51D84A691E623DE000054043 /* Park.swift in Sources */,
 				51D84A261E620D5F00054043 /* ViewController.swift in Sources */,
+				51D84A6D1E6240A100054043 /* drinkingFountains.swift in Sources */,
 				51D84A241E620D5F00054043 /* AppDelegate.swift in Sources */,
-				51D84A5B1E6225CC00054043 /* JSON_Parser.cpp in Sources */,
+				51D84A621E62362400054043 /* Washrooms.swift in Sources */,
+				51D84A601E6234F100054043 /* SwiftyJSON.swift in Sources */,
+				51D84A641E62378300054043 /* LatLong.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,12 +8,14 @@ target 'TouringNW' do
   # Pods for TouringNW
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 
   target 'TouringNWTests' do
     inherit! :search_paths
     # Pods for testing
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
   end
 
   target 'TouringNWUITests' do
@@ -21,6 +23,7 @@ pod 'GooglePlaces'
     # Pods for testing
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
   end
 
 end
