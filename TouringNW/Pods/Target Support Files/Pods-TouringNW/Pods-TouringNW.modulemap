@@ -1,6 +1,0 @@
-framework module Pods_TouringNW {
-  umbrella header "Pods-TouringNW-umbrella.h"
-
-  export *
-  module * { export * }
-}
