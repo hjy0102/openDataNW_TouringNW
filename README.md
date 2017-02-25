@@ -1,28 +1,26 @@
 # openDataNW_TouringNW
 
 Things to include:
-Public washrooms
+Public washrooms: CSV
 
-Bus routes
+Bus routes: CSV
 
-Bus stops
+Bus stops: CSV
 
-Parks
+Parks: CSV
 
-Part Trails
+Part Trails: CSV
 
-Playgrounds
+Playgrounds: CSV
 
-Skytrain station
+Skytrain station: CSV
 
-Sports field
+Sports field: CSV
 
-Traffic Volumes
+Traffic Volumes: CSV
 
-Wheelchair ramps
+Wheelchair ramps: CSV
 
-Park benches & Dedications
+Park benches & Dedications: CSV
 
-Drinking fountains
-
-Bike routes
+Drinking fountains: CSV 
