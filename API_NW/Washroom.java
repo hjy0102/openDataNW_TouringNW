@@ -1,3 +1,4 @@
+//Name,Category,Address,Neighbourhood,Hours,Source,Accessible,X,Y
 public class Washroom{
   String name, category, address, neighbourhood, hours, source, accessible;
   LatLng latlng;

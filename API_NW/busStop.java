@@ -1,3 +1,4 @@
+//BUSSTOPNUM,ONSTREET,ATSTREET,DIRECTION,POSITION,STATUS,ACCESSIBLE,CITY_NAME,X,Y
 public class BusStop{
   int stopNumber;
   String onStreet, atStreet, direction, position, status, accessible, cityName;
