@@ -1,5 +1,5 @@
 //
-//  drinkingFountains.swift
+//  ParkBenches.swift
 //  TouringNW
 //
 //  Created by Mike Yoon on 2017-02-25.
@@ -8,14 +8,23 @@
 
 import Foundation
 
-class drinkingFountains{
-    var structureId: String!
+class ParkBenches{
+    var parkName: String!
+    var structureID: String!
     var latLong:LatLong = LatLong();
+    var rating:Int!
+    
+    func getparkName() -> String{
+        return parkName;
+    }
     
     func getStructureID() -> String{
-        return structureId;
+        return structureID;
     }
     func getLatLong() -> LatLong{
         return latLong;
+    }
+    func getRating() -> Int {
+        return rating;
     }
 }

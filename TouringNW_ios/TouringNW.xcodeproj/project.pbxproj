@@ -21,7 +21,8 @@
 		51D84A641E62378300054043 /* LatLong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A631E62378300054043 /* LatLong.swift */; };
 		51D84A691E623DE000054043 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A681E623DE000054043 /* Park.swift */; };
 		51D84A6B1E623E8D00054043 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A6A1E623E8D00054043 /* BusStop.swift */; };
-		51D84A6D1E6240A100054043 /* drinkingFountains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A6C1E6240A100054043 /* drinkingFountains.swift */; };
+		51D84A6D1E6240A100054043 /* DrinkingFountains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A6C1E6240A100054043 /* DrinkingFountains.swift */; };
+		51D84A711E624C8C00054043 /* ParkBenches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A701E624C8C00054043 /* ParkBenches.swift */; };
 		849A4A0175F0E23F5ACBC78B /* Pods_TouringNWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15792F64F61EF1C4C84695AD /* Pods_TouringNWTests.framework */; };
 		F5195E34083FF4B24DA6AD14 /* Pods_TouringNW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938A70DE4B53E190D9BA9084 /* Pods_TouringNW.framework */; };
 /* End PBXBuildFile section */
@@ -65,7 +66,8 @@
 		51D84A631E62378300054043 /* LatLong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatLong.swift; sourceTree = "<group>"; };
 		51D84A681E623DE000054043 /* Park.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
 		51D84A6A1E623E8D00054043 /* BusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
-		51D84A6C1E6240A100054043 /* drinkingFountains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drinkingFountains.swift; sourceTree = "<group>"; };
+		51D84A6C1E6240A100054043 /* DrinkingFountains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkingFountains.swift; sourceTree = "<group>"; };
+		51D84A701E624C8C00054043 /* ParkBenches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkBenches.swift; sourceTree = "<group>"; };
 		56FE7F86C76B72D753957403 /* Pods-TouringNWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNWUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNWUITests/Pods-TouringNWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D8A85A468434A2BAA8105BE /* Pods-TouringNW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNW.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNW/Pods-TouringNW.release.xcconfig"; sourceTree = "<group>"; };
 		7A79BDDDF473AFA30FB5C722 /* Pods-TouringNWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNWUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNWUITests/Pods-TouringNWUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,7 +170,8 @@
 				51D84A5D1E6232F100054043 /* JSON_parser.swift */,
 				51D84A681E623DE000054043 /* Park.swift */,
 				51D84A6A1E623E8D00054043 /* BusStop.swift */,
-				51D84A6C1E6240A100054043 /* drinkingFountains.swift */,
+				51D84A6C1E6240A100054043 /* DrinkingFountains.swift */,
+				51D84A701E624C8C00054043 /* ParkBenches.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -481,8 +484,9 @@
 				51D84A6B1E623E8D00054043 /* BusStop.swift in Sources */,
 				51D84A5E1E6232F100054043 /* JSON_parser.swift in Sources */,
 				51D84A691E623DE000054043 /* Park.swift in Sources */,
+				51D84A711E624C8C00054043 /* ParkBenches.swift in Sources */,
 				51D84A261E620D5F00054043 /* ViewController.swift in Sources */,
-				51D84A6D1E6240A100054043 /* drinkingFountains.swift in Sources */,
+				51D84A6D1E6240A100054043 /* DrinkingFountains.swift in Sources */,
 				51D84A241E620D5F00054043 /* AppDelegate.swift in Sources */,
 				51D84A621E62362400054043 /* Washrooms.swift in Sources */,
 				51D84A601E6234F100054043 /* SwiftyJSON.swift in Sources */,
