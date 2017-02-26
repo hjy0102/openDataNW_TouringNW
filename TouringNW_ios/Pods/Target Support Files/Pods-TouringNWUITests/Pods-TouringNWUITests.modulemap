@@ -1,6 +1,0 @@
-framework module Pods_TouringNWUITests {
-  umbrella header "Pods-TouringNWUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
