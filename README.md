@@ -1,4 +1,4 @@
-# openDataNW_TouringNW
+# TouringNW
 
 Things to include:
 Public washrooms: CSV
