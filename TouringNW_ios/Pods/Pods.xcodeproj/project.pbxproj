@@ -52,24 +52,24 @@
 		0D63D2037FF0BC5F3EA7C9093FF3CC4C /* Pods-TouringNWTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNWTests-resources.sh"; sourceTree = "<group>"; };
 		1061E2B17D228943ECF627EDBE9FD5DD /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		145D40EFC14DA071B428E5C92A9157BF /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		237FF486B2B76BDA928ED4EE9A4B9ECE /* Pods_TouringNW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNW.framework; path = "Pods-TouringNW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		237FF486B2B76BDA928ED4EE9A4B9ECE /* Pods_TouringNW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouringNW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F6800470F68BA9C1E6C7F7289442FC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		29F911406F95CD1304615A32BEE5D719 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		2C088A16BCEB3CD11A0446DB790D34A2 /* Pods-TouringNW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouringNW-acknowledgements.markdown"; sourceTree = "<group>"; };
 		385C738C6C5A325AA9394C6B43A0B9A0 /* Pods-TouringNWUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNWUITests-frameworks.sh"; sourceTree = "<group>"; };
 		3F1D9D9C7050C4381FAB6165092916CF /* Pods-TouringNW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouringNW-dummy.m"; sourceTree = "<group>"; };
-		45C9580F202CFBAE11C85789467B5448 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		45C9580F202CFBAE11C85789467B5448 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		4903508FE5C00999987573286088D252 /* Pods-TouringNWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		496E89416A78F2BED42C171E11866083 /* Pods-TouringNWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNWTests.release.xcconfig"; sourceTree = "<group>"; };
-		4CD15A7551275670A4DCB400362DB6AD /* Pods-TouringNWUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouringNWUITests.modulemap"; sourceTree = "<group>"; };
+		4CD15A7551275670A4DCB400362DB6AD /* Pods-TouringNWUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TouringNWUITests.modulemap"; sourceTree = "<group>"; };
 		4DC051D50624E746C77D912A247680A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5773710F0357C27B71EEDEC3E546DCA1 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		5B8CEAD6FDC70FF7BB2F5E96F26FF6F3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8CEAD6FDC70FF7BB2F5E96F26FF6F3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D52417309DE98123C917661E758EFC /* Pods-TouringNWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNWUITests.release.xcconfig"; sourceTree = "<group>"; };
 		653EDB5AE6B8D7890553D8EEA0F990F1 /* Pods-TouringNW-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouringNW-acknowledgements.plist"; sourceTree = "<group>"; };
 		6578F8083EDCED5AF30325B83CE8F91C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6792284A55B1C9BC74BF967D14669209 /* Pods-TouringNWTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNWTests-frameworks.sh"; sourceTree = "<group>"; };
-		682566AAA0FC03B09934582D62C036EB /* Pods_TouringNWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNWUITests.framework; path = "Pods-TouringNWUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		682566AAA0FC03B09934582D62C036EB /* Pods_TouringNWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouringNWUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C045140E3D6501AD3D536479C57AFAA /* Pods-TouringNWUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouringNWUITests-dummy.m"; sourceTree = "<group>"; };
 		6CB544873FBA72BD488112CAD80DAEFE /* Pods-TouringNWUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouringNWUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		70C0FCE0E576FF3D6202BA6CF0EC244C /* Pods-TouringNWTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouringNWTests-umbrella.h"; sourceTree = "<group>"; };
@@ -78,14 +78,14 @@
 		86E5162D493A025E5D4CF1D28583537C /* Pods-TouringNWTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouringNWTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		90FDBDC026C1D99733023B44781DE83A /* Pods-TouringNW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNW.release.xcconfig"; sourceTree = "<group>"; };
 		9158A364F22A1C7CE121CCC7C23A988D /* Pods-TouringNW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNW.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96F8EF8A0F027C8391034197655E5135 /* Pods-TouringNW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouringNW.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F8EF8A0F027C8391034197655E5135 /* Pods-TouringNW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TouringNW.modulemap"; sourceTree = "<group>"; };
 		9787B5B103CE1172C1041547A6D09DA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CB339387B862E7F1521AC6AD0E8A3A /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		9D0AF5799DDC2F883FED925892369625 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		A0FFC0E82F7F1C9A2B5CC64661C7EDAD /* Pods-TouringNW-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouringNW-umbrella.h"; sourceTree = "<group>"; };
 		A2EB192D6523A13A3093D6FB479EBBC4 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		A60567459200EBA3459C48F72064AB89 /* Pods_TouringNWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNWTests.framework; path = "Pods-TouringNWTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60567459200EBA3459C48F72064AB89 /* Pods_TouringNWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouringNWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73FA27C5E4484522D2D91383403E158 /* Pods-TouringNWTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouringNWTests-dummy.m"; sourceTree = "<group>"; };
 		B004F60DD3FECE301BA0FAD4738D78A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B95AB9FF8CD13FE519F8EC05912B3311 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		CF69ECED8F51D61B0DC2D03F63FFF516 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		D1E6AE86B4E462E1DC9A5A982112A735 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		D24535D52FCB8B2564DAEEAA30E36D27 /* Pods-TouringNWUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNWUITests-resources.sh"; sourceTree = "<group>"; };
-		F1D742F5EBB5B5259D537849ADC31562 /* Pods-TouringNWTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouringNWTests.modulemap"; sourceTree = "<group>"; };
+		F1D742F5EBB5B5259D537849ADC31562 /* Pods-TouringNWTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TouringNWTests.modulemap"; sourceTree = "<group>"; };
 		F2956D90199FD3D7A98297775C36DC16 /* Pods-TouringNWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNWTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,7 +202,6 @@
 				DE3537A5E52F2BEF9AD1863AAD872F53 /* Frameworks */,
 				A15E7F35A4A89F4A2CBE3908C4EF09B2 /* Resources */,
 			);
-			name = GooglePlaces;
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
@@ -273,7 +272,6 @@
 				145D40EFC14DA071B428E5C92A9157BF /* SwiftyJSON.swift */,
 				1852751FB56CB46BC788DD9C9E3EFF7D /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -309,7 +307,6 @@
 				753ED92AF8CA2C3CB6A8AC96D329E0C0 /* Base */,
 				F8137926F522417F48204042EB5897CC /* Maps */,
 			);
-			name = GoogleMaps;
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
