@@ -26,6 +26,9 @@
 		51D84A751E62507F00054043 /* PublicArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D84A741E62507F00054043 /* PublicArt.swift */; };
 		64207FD81E62A66B008CE797 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64207FD71E62A66B008CE797 /* MapViewController.swift */; };
 		64207FDA1E62A8A5008CE797 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64207FD91E62A8A5008CE797 /* PlacesViewController.swift */; };
+		6481AAE31E62B66100D049A8 /* Packages in Resources */ = {isa = PBXBuildFile; fileRef = 6481AAE21E62B66100D049A8 /* Packages */; };
+		6481AAE51E62B67C00D049A8 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 6481AAE41E62B67C00D049A8 /* Sources */; };
+		6481AAE71E62B68E00D049A8 /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 6481AAE61E62B68E00D049A8 /* Tests */; };
 		849A4A0175F0E23F5ACBC78B /* Pods_TouringNWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15792F64F61EF1C4C84695AD /* Pods_TouringNWTests.framework */; };
 		F5195E34083FF4B24DA6AD14 /* Pods_TouringNW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938A70DE4B53E190D9BA9084 /* Pods_TouringNW.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +78,9 @@
 		56FE7F86C76B72D753957403 /* Pods-TouringNWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNWUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNWUITests/Pods-TouringNWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		64207FD71E62A66B008CE797 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		64207FD91E62A8A5008CE797 /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		6481AAE21E62B66100D049A8 /* Packages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Packages; sourceTree = SOURCE_ROOT; };
+		6481AAE41E62B67C00D049A8 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sources; path = ../Packages/Sources; sourceTree = "<group>"; };
+		6481AAE61E62B68E00D049A8 /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = SOURCE_ROOT; };
 		6D8A85A468434A2BAA8105BE /* Pods-TouringNW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNW.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNW/Pods-TouringNW.release.xcconfig"; sourceTree = "<group>"; };
 		7A79BDDDF473AFA30FB5C722 /* Pods-TouringNWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouringNWUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouringNWUITests/Pods-TouringNWUITests.release.xcconfig"; sourceTree = "<group>"; };
 		938A70DE4B53E190D9BA9084 /* Pods_TouringNW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouringNW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +143,9 @@
 		51D84A221E620D5F00054043 /* TouringNW */ = {
 			isa = PBXGroup;
 			children = (
+				6481AAE61E62B68E00D049A8 /* Tests */,
+				6481AAE41E62B67C00D049A8 /* Sources */,
+				6481AAE21E62B66100D049A8 /* Packages */,
 				51D84A671E623D6B00054043 /* Classes */,
 				51D84A5F1E6234F100054043 /* SwiftyJSON.swift */,
 				51D84A231E620D5F00054043 /* AppDelegate.swift */,
@@ -325,9 +334,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6481AAE71E62B68E00D049A8 /* Tests in Resources */,
 				51D84A2E1E620D5F00054043 /* LaunchScreen.storyboard in Resources */,
 				51D84A2B1E620D5F00054043 /* Assets.xcassets in Resources */,
 				51D84A291E620D5F00054043 /* Main.storyboard in Resources */,
+				6481AAE31E62B66100D049A8 /* Packages in Resources */,
+				6481AAE51E62B67C00D049A8 /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

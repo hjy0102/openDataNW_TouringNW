@@ -24,6 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         GMSServices.provideAPIKey("AIzaSyCgR3O7NjaFYkbvDmbuXoEnSqoL95IUdCs")
         GMSPlacesClient.provideAPIKey("AIzaSyCgR3O7NjaFYkbvDmbuXoEnSqoL95IUdCs")
+        
+        let server = try Server(mongoURL: "mongodb://admin:admin@ds161069.mlab.com:61069/nwtour")
+        let database = server["nwtour"]
+        
+        if server.isConnected {
+            print("Connected successfully to server")
+        }
+        
         return true
         
     }
