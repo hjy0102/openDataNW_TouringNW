@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "562333328469",
+    "firebase_url": "https://tournw-c6c6b.firebaseio.com",
+    "project_id": "tournw-c6c6b",
+    "storage_bucket": "tournw-c6c6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562333328469:android:dc12f8e09a78c41e",
+        "android_client_info": {
+          "package_name": "com.kisubs.tournw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562333328469-0ce8smpo8adpubgrb7o61nbbptie6t51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kisubs.tournw",
+            "certificate_hash": "d17d6e1fa67acffee68da38299698f5005528d3f"
+          }
+        },
+        {
+          "client_id": "562333328469-1jc93blvqtedee8a3kv04tb9epfssi98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CyS8C8EGyKfW3ijTlGUSlXwlsqTv4W0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562333328469-1jc93blvqtedee8a3kv04tb9epfssi98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
