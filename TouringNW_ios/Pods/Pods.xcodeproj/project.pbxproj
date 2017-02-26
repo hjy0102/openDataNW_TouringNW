@@ -7,37 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A64A6DB9BC06D251057221CC24890E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		3F373AEE7779D8E674F2650221240E46 /* Pods-TouringNW-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFC0E82F7F1C9A2B5CC64661C7EDAD /* Pods-TouringNW-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45748C26E02073B8F71F7B7BAA5E917E /* Pods-TouringNWUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C6D21CA55E566767FB3CE457408A5F /* Pods-TouringNWUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53E5EBAC540CA0CC9A0EA613B5F80DF3 /* Pods-TouringNWTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A73FA27C5E4484522D2D91383403E158 /* Pods-TouringNWTests-dummy.m */; };
-		7F5E2252EF6BFFD543066E930A469B0E /* Pods-TouringNW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D9D9C7050C4381FAB6165092916CF /* Pods-TouringNW-dummy.m */; };
-		8FC994497518B6EA9D7A0B02B9C32E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8FF78164237BCCD493762038F9BE1FAB /* Pods-TouringNWTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C0FCE0E576FF3D6202BA6CF0EC244C /* Pods-TouringNWTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2B6E58074F9FA5BC36C50E1D896DD0F /* Pods-TouringNWUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C045140E3D6501AD3D536479C57AFAA /* Pods-TouringNWUITests-dummy.m */; };
-		E606247EEC3E19B50103134B60C8A2CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		057DC9DCAA662FEB9762612EBFEB3CF7 /* Pods-TouringNWTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C0FCE0E576FF3D6202BA6CF0EC244C /* Pods-TouringNWTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2751476CF4853AAC41690D630D1C60F4 /* Pods-TouringNWUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C045140E3D6501AD3D536479C57AFAA /* Pods-TouringNWUITests-dummy.m */; };
+		2B52EBB90FD8A24B7EEBF898EF0F5E0E /* Pods-TouringNW-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFC0E82F7F1C9A2B5CC64661C7EDAD /* Pods-TouringNW-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A381E4D8F718D7EC64717BD082F8416 /* Pods-TouringNW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D9D9C7050C4381FAB6165092916CF /* Pods-TouringNW-dummy.m */; };
+		66CFE9E11B805E6BAA5DF1B0163F3DB7 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5773710F0357C27B71EEDEC3E546DCA1 /* SwiftyJSON-dummy.m */; };
+		67EC0DC76AEC67C3B48BAD55F880B7A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6A257E1D37625C07458AA4AB43A518AD /* Pods-TouringNWUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C6D21CA55E566767FB3CE457408A5F /* Pods-TouringNWUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878A36C569B9F9FE0B029D1924382094 /* Pods-TouringNWTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A73FA27C5E4484522D2D91383403E158 /* Pods-TouringNWTests-dummy.m */; };
+		93BA6835F03C4FEEAEC7328F9302A342 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0AF5799DDC2F883FED925892369625 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99429DD49937F97AAF739547802A2EFD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40EFC14DA071B428E5C92A9157BF /* SwiftyJSON.swift */; };
+		A3AC33998654C4CA998E1705152F4249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EE82F7FC5D910450209F599FD68CFC62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F5EDABBAE162661C39B5A91FAB4295B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		19788C62E7B642606B139E55F93F240A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891F7BD42D4E17D1CEE652224EED44E1;
+			remoteInfo = SwiftyJSON;
+		};
+		CF2796C55B94030F7B08346F11E6D269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891F7BD42D4E17D1CEE652224EED44E1;
+			remoteInfo = SwiftyJSON;
+		};
+		E918C7930EC6CC2B1BE9DCE696A6EFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891F7BD42D4E17D1CEE652224EED44E1;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		01522C9ED9248CCBAD93256CAB47F920 /* Pods_TouringNWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNWTests.framework; path = "Pods-TouringNWTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B7F255446F461B3745E6996E0E7E42 /* Pods-TouringNW-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNW-resources.sh"; sourceTree = "<group>"; };
-		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		0AEBC249AA087FFCBAC6525DD9F85503 /* Pods-TouringNWUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouringNWUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0D63D2037FF0BC5F3EA7C9093FF3CC4C /* Pods-TouringNWTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNWTests-resources.sh"; sourceTree = "<group>"; };
+		1061E2B17D228943ECF627EDBE9FD5DD /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		145D40EFC14DA071B428E5C92A9157BF /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		237FF486B2B76BDA928ED4EE9A4B9ECE /* Pods_TouringNW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNW.framework; path = "Pods-TouringNW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F6800470F68BA9C1E6C7F7289442FC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		29F911406F95CD1304615A32BEE5D719 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		2C088A16BCEB3CD11A0446DB790D34A2 /* Pods-TouringNW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouringNW-acknowledgements.markdown"; sourceTree = "<group>"; };
 		385C738C6C5A325AA9394C6B43A0B9A0 /* Pods-TouringNWUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNWUITests-frameworks.sh"; sourceTree = "<group>"; };
 		3F1D9D9C7050C4381FAB6165092916CF /* Pods-TouringNW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouringNW-dummy.m"; sourceTree = "<group>"; };
+		45C9580F202CFBAE11C85789467B5448 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		4903508FE5C00999987573286088D252 /* Pods-TouringNWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		496E89416A78F2BED42C171E11866083 /* Pods-TouringNWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNWTests.release.xcconfig"; sourceTree = "<group>"; };
 		4CD15A7551275670A4DCB400362DB6AD /* Pods-TouringNWUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouringNWUITests.modulemap"; sourceTree = "<group>"; };
 		4DC051D50624E746C77D912A247680A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5773710F0357C27B71EEDEC3E546DCA1 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		5B8CEAD6FDC70FF7BB2F5E96F26FF6F3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D52417309DE98123C917661E758EFC /* Pods-TouringNWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNWUITests.release.xcconfig"; sourceTree = "<group>"; };
 		653EDB5AE6B8D7890553D8EEA0F990F1 /* Pods-TouringNW-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouringNW-acknowledgements.plist"; sourceTree = "<group>"; };
 		6578F8083EDCED5AF30325B83CE8F91C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6792284A55B1C9BC74BF967D14669209 /* Pods-TouringNWTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNWTests-frameworks.sh"; sourceTree = "<group>"; };
+		682566AAA0FC03B09934582D62C036EB /* Pods_TouringNWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNWUITests.framework; path = "Pods-TouringNWUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C045140E3D6501AD3D536479C57AFAA /* Pods-TouringNWUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouringNWUITests-dummy.m"; sourceTree = "<group>"; };
 		6CB544873FBA72BD488112CAD80DAEFE /* Pods-TouringNWUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouringNWUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		70C0FCE0E576FF3D6202BA6CF0EC244C /* Pods-TouringNWTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouringNWTests-umbrella.h"; sourceTree = "<group>"; };
 		70C6D21CA55E566767FB3CE457408A5F /* Pods-TouringNWUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouringNWUITests-umbrella.h"; sourceTree = "<group>"; };
 		79EBFEA52FD12D98C652441BB058A35C /* Pods-TouringNWTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouringNWTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -47,86 +81,91 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F8EF8A0F027C8391034197655E5135 /* Pods-TouringNW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouringNW.modulemap"; sourceTree = "<group>"; };
 		9787B5B103CE1172C1041547A6D09DA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CB339387B862E7F1521AC6AD0E8A3A /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		9D0AF5799DDC2F883FED925892369625 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		A0FFC0E82F7F1C9A2B5CC64661C7EDAD /* Pods-TouringNW-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouringNW-umbrella.h"; sourceTree = "<group>"; };
+		A2EB192D6523A13A3093D6FB479EBBC4 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		A60567459200EBA3459C48F72064AB89 /* Pods_TouringNWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNWTests.framework; path = "Pods-TouringNWTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73FA27C5E4484522D2D91383403E158 /* Pods-TouringNWTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouringNWTests-dummy.m"; sourceTree = "<group>"; };
-		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		AFD4D1E144CCB4285706E577C2602A44 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		BC207614AAA26E7D90B209DE1A11EB0F /* Pods_TouringNW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNW.framework; path = "Pods-TouringNW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B004F60DD3FECE301BA0FAD4738D78A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95AB9FF8CD13FE519F8EC05912B3311 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		C2E2CE9B3F6F32385C554B80A425C3D4 /* Pods-TouringNW-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNW-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF69ECED8F51D61B0DC2D03F63FFF516 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		D1E6AE86B4E462E1DC9A5A982112A735 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		D24535D52FCB8B2564DAEEAA30E36D27 /* Pods-TouringNWUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouringNWUITests-resources.sh"; sourceTree = "<group>"; };
-		DB15D5CC4328DB051208B03B4736B68C /* Pods_TouringNWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouringNWUITests.framework; path = "Pods-TouringNWUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D742F5EBB5B5259D537849ADC31562 /* Pods-TouringNWTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouringNWTests.modulemap"; sourceTree = "<group>"; };
 		F2956D90199FD3D7A98297775C36DC16 /* Pods-TouringNWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouringNWTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F88E2A6AB865C2A1EB845B27A14348FA /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		41A964AA0646AE9743F492FF2E6E6A0D /* Frameworks */ = {
+		3F05B3BCA3BEAD09D221B3E81AC1FE25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC994497518B6EA9D7A0B02B9C32E25 /* Foundation.framework in Frameworks */,
+				EE82F7FC5D910450209F599FD68CFC62 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DAC319825624352443C401C753A1DF7 /* Frameworks */ = {
+		4A7CD44865E3942DC20CE86155987370 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E606247EEC3E19B50103134B60C8A2CE /* Foundation.framework in Frameworks */,
+				67EC0DC76AEC67C3B48BAD55F880B7A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC9646F738590B096B25672C5BC77F44 /* Frameworks */ = {
+		9E8927F9F06696B9201A0C2A72A4E9E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A64A6DB9BC06D251057221CC24890E5 /* Foundation.framework in Frameworks */,
+				A3AC33998654C4CA998E1705152F4249 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36850067985869E794B28DBC23CBD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EDABBAE162661C39B5A91FAB4295B4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */ = {
+		1852751FB56CB46BC788DD9C9E3EFF7D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				475420FA59EFC8377CF994A338979247 /* Frameworks */,
-				4F6C8AC648A5703DF2BEC96A882D19E9 /* Resources */,
+				B004F60DD3FECE301BA0FAD4738D78A6 /* Info.plist */,
+				45C9580F202CFBAE11C85789467B5448 /* SwiftyJSON.modulemap */,
+				CF69ECED8F51D61B0DC2D03F63FFF516 /* SwiftyJSON.xcconfig */,
+				5773710F0357C27B71EEDEC3E546DCA1 /* SwiftyJSON-dummy.m */,
+				97CB339387B862E7F1521AC6AD0E8A3A /* SwiftyJSON-prefix.pch */,
+				9D0AF5799DDC2F883FED925892369625 /* SwiftyJSON-umbrella.h */,
 			);
-			name = GooglePlaces;
-			path = GooglePlaces;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */ = {
+		24FF4784B3C8B41D8D707D5A06545329 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2F22323EA3B1ADB4F96376E3F709A68 /* Base */,
-				488E301C4ACDDA928635C4886F5F6158 /* Maps */,
-			);
-			name = GoogleMaps;
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		3595C50DDC2C828098124D063FEC5903 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BC207614AAA26E7D90B209DE1A11EB0F /* Pods_TouringNW.framework */,
-				01522C9ED9248CCBAD93256CAB47F920 /* Pods_TouringNWTests.framework */,
-				DB15D5CC4328DB051208B03B4736B68C /* Pods_TouringNWUITests.framework */,
+				237FF486B2B76BDA928ED4EE9A4B9ECE /* Pods_TouringNW.framework */,
+				A60567459200EBA3459C48F72064AB89 /* Pods_TouringNWTests.framework */,
+				682566AAA0FC03B09934582D62C036EB /* Pods_TouringNWUITests.framework */,
+				5B8CEAD6FDC70FF7BB2F5E96F26FF6F3 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
+		3E5AD328CE79B49B0793F5208CA62FCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */,
-				00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */,
+				29F911406F95CD1304615A32BEE5D719 /* GoogleMaps.framework */,
+				A2EB192D6523A13A3093D6FB479EBBC4 /* GoogleMapsCore.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		45F92F626E7B073EBCC62EDEEFC21FAB /* Pods-TouringNW */ = {
@@ -147,39 +186,6 @@
 			path = "Target Support Files/Pods-TouringNW";
 			sourceTree = "<group>";
 		};
-		475420FA59EFC8377CF994A338979247 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		488E301C4ACDDA928635C4886F5F6158 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */,
-				FAC5D957D919553947FEE0A96B739CC4 /* Resources */,
-			);
-			name = Maps;
-			sourceTree = "<group>";
-		};
-		4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4F6C8AC648A5703DF2BEC96A882D19E9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F88E2A6AB865C2A1EB845B27A14348FA /* GooglePlaces.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		5F5DD86CD29DAA1A6F2AD70655ABFE05 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +194,16 @@
 				72B66ABC296ECB915DB96965B57150FE /* Pods-TouringNWUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6582AA9F7BA1CC2D05CCE430EDDCBA8C /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				DE3537A5E52F2BEF9AD1863AAD872F53 /* Frameworks */,
+				A15E7F35A4A89F4A2CBE3908C4EF09B2 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
 		72B66ABC296ECB915DB96965B57150FE /* Pods-TouringNWUITests */ = {
@@ -216,32 +232,49 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		753ED92AF8CA2C3CB6A8AC96D329E0C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8B0C754EAF902D7E6252A84DAF723642 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				385FA015FFB9210F372AB1078B856AAB /* Pods */,
-				3595C50DDC2C828098124D063FEC5903 /* Products */,
+				E7B8BCD0FE1B7E044F6BECFBC2A3021C /* Pods */,
+				24FF4784B3C8B41D8D707D5A06545329 /* Products */,
 				5F5DD86CD29DAA1A6F2AD70655ABFE05 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */ = {
+		8B0C754EAF902D7E6252A84DAF723642 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */,
-				A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */,
+				1061E2B17D228943ECF627EDBE9FD5DD /* GoogleMapsBase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B2F22323EA3B1ADB4F96376E3F709A68 /* Base */ = {
+		A15E7F35A4A89F4A2CBE3908C4EF09B2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */,
+				D1E6AE86B4E462E1DC9A5A982112A735 /* GooglePlaces.bundle */,
 			);
-			name = Base;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A2D282A2F611D5527DB5ECA76D6E0716 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				145D40EFC14DA071B428E5C92A9157BF /* SwiftyJSON.swift */,
+				1852751FB56CB46BC788DD9C9E3EFF7D /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -270,93 +303,158 @@
 			path = "Target Support Files/Pods-TouringNWTests";
 			sourceTree = "<group>";
 		};
-		FAC5D957D919553947FEE0A96B739CC4 /* Resources */ = {
+		D07A236914264B118DAF18C6A09F671D /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				AFD4D1E144CCB4285706E577C2602A44 /* GoogleMaps.bundle */,
+				753ED92AF8CA2C3CB6A8AC96D329E0C0 /* Base */,
+				F8137926F522417F48204042EB5897CC /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		DB1A54798363599DE07A8F083787FD89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26F6800470F68BA9C1E6C7F7289442FC /* GoogleMaps.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE3537A5E52F2BEF9AD1863AAD872F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B95AB9FF8CD13FE519F8EC05912B3311 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B8BCD0FE1B7E044F6BECFBC2A3021C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D07A236914264B118DAF18C6A09F671D /* GoogleMaps */,
+				6582AA9F7BA1CC2D05CCE430EDDCBA8C /* GooglePlaces */,
+				A2D282A2F611D5527DB5ECA76D6E0716 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8137926F522417F48204042EB5897CC /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				3E5AD328CE79B49B0793F5208CA62FCE /* Frameworks */,
+				DB1A54798363599DE07A8F083787FD89 /* Resources */,
+			);
+			name = Maps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14ACF10E80B9E6C52B344E69153D8A31 /* Headers */ = {
+		385A7BC645A8B3DDBD72A6AD14256C39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF78164237BCCD493762038F9BE1FAB /* Pods-TouringNWTests-umbrella.h in Headers */,
+				6A257E1D37625C07458AA4AB43A518AD /* Pods-TouringNWUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		958EEFC9A478EFC21FDA9F851D44646C /* Headers */ = {
+		61B3290ABED41F2B6A2B0077D3982B2B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45748C26E02073B8F71F7B7BAA5E917E /* Pods-TouringNWUITests-umbrella.h in Headers */,
+				93BA6835F03C4FEEAEC7328F9302A342 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8F1C36726ECE7A5D39ADB6DB1C093C1 /* Headers */ = {
+		6CF81A5115E3A40369CE4E8E6DB3C0F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F373AEE7779D8E674F2650221240E46 /* Pods-TouringNW-umbrella.h in Headers */,
+				057DC9DCAA662FEB9762612EBFEB3CF7 /* Pods-TouringNWTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EEEFD89DCD7545B1B3CD2C4A51E3E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B52EBB90FD8A24B7EEBF898EF0F5E0E /* Pods-TouringNW-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		371C378A5DE436878DE1E2E29F010063 /* Pods-TouringNW */ = {
+		09AA8D0ECDDE189EA8890FC271B1D29D /* Pods-TouringNW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A9DACDEA83CC188E93CD1A88693E259 /* Build configuration list for PBXNativeTarget "Pods-TouringNW" */;
+			buildConfigurationList = A35887CF90FDABFA0AE6A172AF7DDB16 /* Build configuration list for PBXNativeTarget "Pods-TouringNW" */;
 			buildPhases = (
-				FB6190E5B7A32E7C9134A45554006D64 /* Sources */,
-				41A964AA0646AE9743F492FF2E6E6A0D /* Frameworks */,
-				B8F1C36726ECE7A5D39ADB6DB1C093C1 /* Headers */,
+				ED0E43DDE9AEE20A3E54F5EB1397AF6F /* Sources */,
+				9E8927F9F06696B9201A0C2A72A4E9E0 /* Frameworks */,
+				C9EEEFD89DCD7545B1B3CD2C4A51E3E6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FBA72621DF996484DCFA9155EF678016 /* PBXTargetDependency */,
 			);
 			name = "Pods-TouringNW";
 			productName = "Pods-TouringNW";
-			productReference = BC207614AAA26E7D90B209DE1A11EB0F /* Pods_TouringNW.framework */;
+			productReference = 237FF486B2B76BDA928ED4EE9A4B9ECE /* Pods_TouringNW.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5A2274EAE30BF6B67772F0700255C682 /* Pods-TouringNWUITests */ = {
+		326EFF639E9809E33C4FA9F39A0D6E53 /* Pods-TouringNWTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B8AD2C44BF5611D006A0C8859D1604 /* Build configuration list for PBXNativeTarget "Pods-TouringNWUITests" */;
+			buildConfigurationList = 963E0A98857F964750A02ADE0D06E8CA /* Build configuration list for PBXNativeTarget "Pods-TouringNWTests" */;
 			buildPhases = (
-				82F86EB2FF24C03D77210E855420870C /* Sources */,
-				9DAC319825624352443C401C753A1DF7 /* Frameworks */,
-				958EEFC9A478EFC21FDA9F851D44646C /* Headers */,
+				1005F21542FF90BAEBB274813C5C4274 /* Sources */,
+				4A7CD44865E3942DC20CE86155987370 /* Frameworks */,
+				6CF81A5115E3A40369CE4E8E6DB3C0F6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-TouringNWUITests";
-			productName = "Pods-TouringNWUITests";
-			productReference = DB15D5CC4328DB051208B03B4736B68C /* Pods_TouringNWUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		818036E0365C7D95CCF3E5D0167AB8F5 /* Pods-TouringNWTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6C3B08F38B9A2983A8ECD9AA3B2C263C /* Build configuration list for PBXNativeTarget "Pods-TouringNWTests" */;
-			buildPhases = (
-				3A94E9D83B299F306F8547DED3B26C0B /* Sources */,
-				FC9646F738590B096B25672C5BC77F44 /* Frameworks */,
-				14ACF10E80B9E6C52B344E69153D8A31 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				2178126212F1125D7CDCD8E2D63F9AD2 /* PBXTargetDependency */,
 			);
 			name = "Pods-TouringNWTests";
 			productName = "Pods-TouringNWTests";
-			productReference = 01522C9ED9248CCBAD93256CAB47F920 /* Pods_TouringNWTests.framework */;
+			productReference = A60567459200EBA3459C48F72064AB89 /* Pods_TouringNWTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		891F7BD42D4E17D1CEE652224EED44E1 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C7C4D5B1B86D517894859AF48E21B7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				5EA8316738F371357EC871154C5E8A33 /* Sources */,
+				F36850067985869E794B28DBC23CBD50 /* Frameworks */,
+				61B3290ABED41F2B6A2B0077D3982B2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 5B8CEAD6FDC70FF7BB2F5E96F26FF6F3 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E53FBACC7AFAF5BCCE3275086BAB716D /* Pods-TouringNWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B79AE11F401B9A2C40D12CF0C11BB1F /* Build configuration list for PBXNativeTarget "Pods-TouringNWUITests" */;
+			buildPhases = (
+				A5AB4E4D4361903290851B654BD155FC /* Sources */,
+				3F05B3BCA3BEAD09D221B3E81AC1FE25 /* Frameworks */,
+				385A7BC645A8B3DDBD72A6AD14256C39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9C9E6575D67F661D331E45D3A7739DE /* PBXTargetDependency */,
+			);
+			name = "Pods-TouringNWUITests";
+			productName = "Pods-TouringNWUITests";
+			productReference = 682566AAA0FC03B09934582D62C036EB /* Pods_TouringNWUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -376,43 +474,74 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3595C50DDC2C828098124D063FEC5903 /* Products */;
+			productRefGroup = 24FF4784B3C8B41D8D707D5A06545329 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				371C378A5DE436878DE1E2E29F010063 /* Pods-TouringNW */,
-				818036E0365C7D95CCF3E5D0167AB8F5 /* Pods-TouringNWTests */,
-				5A2274EAE30BF6B67772F0700255C682 /* Pods-TouringNWUITests */,
+				09AA8D0ECDDE189EA8890FC271B1D29D /* Pods-TouringNW */,
+				326EFF639E9809E33C4FA9F39A0D6E53 /* Pods-TouringNWTests */,
+				E53FBACC7AFAF5BCCE3275086BAB716D /* Pods-TouringNWUITests */,
+				891F7BD42D4E17D1CEE652224EED44E1 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A94E9D83B299F306F8547DED3B26C0B /* Sources */ = {
+		1005F21542FF90BAEBB274813C5C4274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53E5EBAC540CA0CC9A0EA613B5F80DF3 /* Pods-TouringNWTests-dummy.m in Sources */,
+				878A36C569B9F9FE0B029D1924382094 /* Pods-TouringNWTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82F86EB2FF24C03D77210E855420870C /* Sources */ = {
+		5EA8316738F371357EC871154C5E8A33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2B6E58074F9FA5BC36C50E1D896DD0F /* Pods-TouringNWUITests-dummy.m in Sources */,
+				66CFE9E11B805E6BAA5DF1B0163F3DB7 /* SwiftyJSON-dummy.m in Sources */,
+				99429DD49937F97AAF739547802A2EFD /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB6190E5B7A32E7C9134A45554006D64 /* Sources */ = {
+		A5AB4E4D4361903290851B654BD155FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5E2252EF6BFFD543066E930A469B0E /* Pods-TouringNW-dummy.m in Sources */,
+				2751476CF4853AAC41690D630D1C60F4 /* Pods-TouringNWUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0E43DDE9AEE20A3E54F5EB1397AF6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A381E4D8F718D7EC64717BD082F8416 /* Pods-TouringNW-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2178126212F1125D7CDCD8E2D63F9AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 891F7BD42D4E17D1CEE652224EED44E1 /* SwiftyJSON */;
+			targetProxy = E918C7930EC6CC2B1BE9DCE696A6EFDB /* PBXContainerItemProxy */;
+		};
+		E9C9E6575D67F661D331E45D3A7739DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 891F7BD42D4E17D1CEE652224EED44E1 /* SwiftyJSON */;
+			targetProxy = 19788C62E7B642606B139E55F93F240A /* PBXContainerItemProxy */;
+		};
+		FBA72621DF996484DCFA9155EF678016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 891F7BD42D4E17D1CEE652224EED44E1 /* SwiftyJSON */;
+			targetProxy = CF2796C55B94030F7B08346F11E6D269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
@@ -459,15 +588,15 @@
 			};
 			name = Debug;
 		};
-		18E08A9542F28B258827DF14FE8C3897 /* Debug */ = {
+		1A7BC11D76229D58370A78E05D78AB5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9158A364F22A1C7CE121CCC7C23A988D /* Pods-TouringNW.debug.xcconfig */;
+			baseConfigurationReference = 90FDBDC026C1D99733023B44781DE83A /* Pods-TouringNW.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -480,7 +609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TouringNW/Pods-TouringNW.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -492,44 +621,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5550F1EEAC23F5F2FF9E6D80FFADF1D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4903508FE5C00999987573286088D252 /* Pods-TouringNWUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TouringNWUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TouringNWUITests/Pods-TouringNWUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TouringNWUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		583DBE75F5ADCF3F898C1E3EEA2B8474 /* Debug */ = {
+		49B377B6CF5C7853556156159E6F7177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2956D90199FD3D7A98297775C36DC16 /* Pods-TouringNWTests.debug.xcconfig */;
 			buildSettings = {
@@ -558,13 +652,50 @@
 				PRODUCT_NAME = Pods_TouringNWTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A92A23FD6946C39EB1837CD6764E0F3D /* Release */ = {
+		527F576CD490E798D741C09CB7230052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4903508FE5C00999987573286088D252 /* Pods-TouringNWUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouringNWUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouringNWUITests/Pods-TouringNWUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TouringNWUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CD99E4AC03BAD433C0AD16449905B61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 496E89416A78F2BED42C171E11866083 /* Pods-TouringNWTests.release.xcconfig */;
 			buildSettings = {
@@ -599,7 +730,76 @@
 			};
 			name = Release;
 		};
-		BACEAA32DF03FC935899C0181552D841 /* Release */ = {
+		BBAA1AD7448A0D5D3FCA88CE6D84710E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF69ECED8F51D61B0DC2D03F63FFF516 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C60A72C533D8C289B5AD08CDD484414A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9158A364F22A1C7CE121CCC7C23A988D /* Pods-TouringNW.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouringNW/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouringNW/Pods-TouringNW.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TouringNW;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6417EAF0757EC46445B9B92A42ACA31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61D52417309DE98123C917661E758EFC /* Pods-TouringNWUITests.release.xcconfig */;
 			buildSettings = {
@@ -628,6 +828,38 @@
 				PRODUCT_NAME = Pods_TouringNWUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8B0A860804B82F5A3258557DABA146A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF69ECED8F51D61B0DC2D03F63FFF516 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -674,44 +906,18 @@
 			};
 			name = Release;
 		};
-		EB22A506E39E6056D00DDC1E530BB7DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90FDBDC026C1D99733023B44781DE83A /* Pods-TouringNW.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TouringNW/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TouringNW/Pods-TouringNW.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TouringNW;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B79AE11F401B9A2C40D12CF0C11BB1F /* Build configuration list for PBXNativeTarget "Pods-TouringNWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527F576CD490E798D741C09CB7230052 /* Debug */,
+				D6417EAF0757EC46445B9B92A42ACA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -721,29 +927,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C3B08F38B9A2983A8ECD9AA3B2C263C /* Build configuration list for PBXNativeTarget "Pods-TouringNWTests" */ = {
+		963E0A98857F964750A02ADE0D06E8CA /* Build configuration list for PBXNativeTarget "Pods-TouringNWTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				583DBE75F5ADCF3F898C1E3EEA2B8474 /* Debug */,
-				A92A23FD6946C39EB1837CD6764E0F3D /* Release */,
+				49B377B6CF5C7853556156159E6F7177 /* Debug */,
+				5CD99E4AC03BAD433C0AD16449905B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A9DACDEA83CC188E93CD1A88693E259 /* Build configuration list for PBXNativeTarget "Pods-TouringNW" */ = {
+		A35887CF90FDABFA0AE6A172AF7DDB16 /* Build configuration list for PBXNativeTarget "Pods-TouringNW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18E08A9542F28B258827DF14FE8C3897 /* Debug */,
-				EB22A506E39E6056D00DDC1E530BB7DF /* Release */,
+				C60A72C533D8C289B5AD08CDD484414A /* Debug */,
+				1A7BC11D76229D58370A78E05D78AB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B8AD2C44BF5611D006A0C8859D1604 /* Build configuration list for PBXNativeTarget "Pods-TouringNWUITests" */ = {
+		F4C7C4D5B1B86D517894859AF48E21B7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5550F1EEAC23F5F2FF9E6D80FFADF1D8 /* Debug */,
-				BACEAA32DF03FC935899C0181552D841 /* Release */,
+				BBAA1AD7448A0D5D3FCA88CE6D84710E /* Debug */,
+				D8B0A860804B82F5A3258557DABA146A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
