@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  div(class="row" style="height: 700px")
+    div(class="col-md-2")
+      div(class="form-group")
+        label(for="radius") Radius (in KM)
+        input#radius(class="form-control" placeholder="Radius")
+
+      div(class="form-group")
+        label Destination Type
+        select#destinationType(class="form-control")
+          option(value="1") Publish Washroom
+          option(value="2") Drinking Fountain
+          option(value="3") Benches
+
+      button(type="button" class="btn btn-default" onclick="search()") Search
+
+      //div(class="checkbox")
+      //  label
+      //    input#fromCurrentLocation(type="checkbox" checked)
+      //    | Center around your current location
+
+    div(class="col-md-10")
+      div#map-canvas
+
