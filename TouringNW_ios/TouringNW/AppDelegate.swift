@@ -9,6 +9,8 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+// MongoDB Swift Driver to connect to the Database 
+import MongoKitten
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
